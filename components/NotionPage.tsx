@@ -119,7 +119,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
     parsePageId(block.id) === parsePageId('d0f5486ec6dd4488860bab47b1412b91')
   const isBlogPost =
     block.type === 'page' && block.parent_table === 'collection'
-  const showTableOfContents = !!isBlogPost
+  const showTableOfContents = isRootPage ? false : !!isBlogPost
   const minTableOfContentsItems = 3
 
   const socialImage = mapNotionImageUrl(
