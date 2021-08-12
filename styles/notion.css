@@ -46,7 +46,7 @@
 }
 
 .notion-gallery-grid .notion-page-icon {
-  display: none;
+  /* display: none; */
 }
 
 .notion-gallery-grid .notion-page-title-text {
@@ -75,7 +75,8 @@
 }
 
 .notion-collection-card-cover img {
-  border-radius: 16px;
+  /* border-radius: 16px; */
+  border-radius: 8px;
 }
 
 .notion-collection-card {
@@ -167,6 +168,10 @@
 
 .notion-collection-column-title {
   display: none !important;
+}
+
+.notion-collection-row {
+  border-bottom: none;
 }
 
 .notion-collection-row-property .notion-property {
