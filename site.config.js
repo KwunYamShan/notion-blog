@@ -8,13 +8,13 @@ module.exports = {
 
   // basic site info (required)
   name: 'Mintoii',
-  domain: 'mintnoii.com',
+  domain: 'www.mintnoii.com',
   author: 'mintnoii',
 
   // open graph metadata (optional)
-  description: 'mintnoii site description',
-  socialImageTitle: 'mintnoii Bullshit',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: 'mintnoii notes',
+  socialImageTitle: 'mintnoii notes',
+  socialImageSubtitle: 'Hello I am mintnoii! 👋',
 
   // social usernames (optional)
   github: 'W-Qing',
