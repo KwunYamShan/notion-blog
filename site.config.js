@@ -1,7 +1,7 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
   // 一切都从这里开始--网站的根 Notion 页面（必需）
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
+  rootNotionPageId: 'WangZhanGang-s-Blog-6f449b9c752f446f83e03c5c1d2e7dcb',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // 如果你要将页面限制为单个 Notion 工作区（可选）
